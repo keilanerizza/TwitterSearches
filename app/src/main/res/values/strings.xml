@@ -3,4 +3,5 @@
     <string name="queryPrompt">Enter Twitter search query here.</string>
     <string name="tagPrompt">Tag your query.</string>
     <string name="saveDescription">Touch this button to save your tagged search.</string>
+    <string name="taggedSearches">TaggedSearches.</string>
 </resources>
