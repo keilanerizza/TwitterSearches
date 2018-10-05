@@ -41,12 +41,12 @@
         android:layout_gravity="fill"
         android:layout_marginTop="16dp"
         android:background="@android:color/holo_blue_bright"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="fill_horizontal"
             android:gravity="center_horizontal"
             android:paddingTop="16dp"
@@ -56,8 +56,10 @@
             android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginBottom="@dimen/tagged_searches_padding"
+            android:layout_marginTop="@dimen/tagged_searches_padding"
             android:layout_weight="1"
-            android:layout_gravity="fill"
             android:paddingTop="16dp">
         </ListView>
     </LinearLayout>
